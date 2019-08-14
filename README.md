@@ -16,7 +16,7 @@ For this project I've used the bootstrap CDN.
 
 _________________________________________________________________________
 
-**For smaller screen*
+**For smaller screen**
 
 <img src="image/screenshots/scm1.png"/>
 <img src="image/screenshots/scm2.png"/>
