@@ -1,0 +1,251 @@
+/*Body*/
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right, rgb(8, 54, 58), rgb(35, 171, 184),rgb(8, 54, 58));
+}
+/*End of Body*/
+
+/*Landing Section*/
+.home-inner
+{   
+    background-image: url('../image/home-inner.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -20rem;;
+    padding: 0px;
+    width:100%;
+    height: 60rem;
+}
+/*End of landing Section*/
+
+/*Navigation Bar*/
+.navbar
+{
+    font-weight: 700;
+    text-align: center;
+    height: 50%;
+    background: rgba(0,0,0,0.6)!important;
+}
+
+.nav-item a
+{
+    color: rgb(201, 198, 198)!important;
+    padding:1rem;
+}
+
+.nav-item a:hover{
+    
+    letter-spacing: .1rem;
+    font-weight: 600;
+    color: white!important;
+    transition-duration: 0.5s;
+
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=fff');
+    }
+
+/*End of Navigation Bar*/
+
+/*Button section*/
+.btn-secondary
+{
+    background-color: rgba(0,0,0,0.6);
+    border: none;
+}
+
+.btn-secondary:hover{
+    
+    color:black;
+    font-weight: bold;
+    background-color: rgba(168, 192, 199, 0.459);
+    transition-duration: 0.2s;
+}
+
+/*End of button section*/
+
+/*Caption Section*/
+.caption
+{
+    width: 100%;
+    height:16rem;
+    position: absolute;
+    margin-top: -30rem;
+    padding-top : 1rem;
+    text-shadow: .1rem .1rem .8rem black;
+    background: rgba(0,0,0,0.6);
+}
+
+/*End of caption section*/
+
+/*Course*/
+#course h1 ,p
+{
+    color: rgba(245, 245, 245, 0.801);
+}
+/*End of course*/
+
+
+/*Button Section*/
+
+.btn-lg
+{
+    box-shadow: .1rem .5rem .5rem black;
+}
+
+
+#ignorebtn
+{
+    color:white;
+    background-color: darkorange;
+    transition-duration: 0.5s;
+}
+
+
+#ignorebtn:hover
+{
+    background-color: transparent;
+    border-color:darkorange;
+    color:darkorange;
+}
+/*End of button Section*/
+
+
+/*Course Section*/
+#course
+{
+    margin: 5rem;
+}
+/*End of course section*/
+
+/*Feature icons*/
+.feature i
+{
+    padding:2rem;
+}
+/*End of the feature icons*/
+
+/*Resources icons*/
+
+.heading
+{
+    margin:3rem;
+    color: white;
+}
+.resource i
+{
+    padding:1rem;
+}
+.resource
+{
+    margin:2rem;
+}
+
+/*End of the Resources icons*/
+
+
+/*Fixed Background section*/
+
+.fixed
+{
+    position: absolute;
+    background-image: url("../image/fixed.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:80%;
+    height: 50rem;
+    margin-right: 10%;
+    box-shadow: 0px 10px 20px black;
+   
+} 
+
+.fixed-background
+{
+    width:80%;
+    height: 50rem;
+    margin-left: 10%;
+    background-color: rgba(0,0,0,0.60);
+    color:white;
+}
+
+.padding
+{
+    margin-top:3rem;
+}
+
+
+/*End of fixed Background section*/
+
+
+/*Card Section*/
+
+.card {
+    box-shadow: 0px 10px 20px black;
+    height:35rem;
+}
+
+/*End of card section*/
+
+
+/*Connect section*/
+.social i{
+    color: whitesmoke;
+    padding: 2rem;
+    
+}
+/*End of connect section*/
+
+/*Footer section*/
+footer
+{
+    margin-top:5rem;
+    padding:2rem;
+    background-color: rgba(17, 17, 17, 0.849);
+    color:whitesmoke;
+}
+
+.active-cyan-4 input[type=text]:focus:not([readonly]) {
+    border: 1px solid #4dd0e1;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #4dd0e1;
+    }
+.active-cyan-3 input[type=text] {
+    border: 1px solid #4dd0e1;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 0 1px #4dd0e1;
+    }
+/* #line-p
+{
+    padding-bottom: 10px;
+} */
+
+/*End of the footer section*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .caption
+    {
+        height: 13rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .caption {
+        height: 13rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .caption {
+        height: 14rem;
+    }
+}
