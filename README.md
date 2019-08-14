@@ -5,4 +5,10 @@ For this project I've used the bootstrap CDN.
 
 **Link:** <https://smoumita19.github.io/Responsive_Webpage_Using_Bootstrap4/>
 
+**For Desktop**
 <img src="image/screenshots/sc1.png"/>
+<img src="image/screenshots/sc2.png"/>
+<img src="image/screenshots/sc3.png"/>
+<img src="image/screenshots/sc4.png"/>
+<img src="image/screenshots/sc5.png"/>
+<img src="image/screenshots/sc6.png"/>
